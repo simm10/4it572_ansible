@@ -8,11 +8,10 @@
         image: ami-085925f297f89fce1
         region: us-east-1
         key_name: presentation
-        vpc_subnet_id: subnet-eb1fc296
+        vpc_subnet_id: subnet-d9124294
         assign_public_ip: 'yes'
         wait: 'yes'
-        count: 1
-        group: eshop
+        count: 2
         aws_access_key: '{{access_key}}'
         aws_secret_key: '{{secret_key}}'
         security_token: '{{session_token}}'
