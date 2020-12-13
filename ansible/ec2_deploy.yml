@@ -7,7 +7,7 @@
         instance_type: t2.micro
         image: ami-085925f297f89fce1
         region: us-east-1
-        key_name: presentation
+        key_name: test
         vpc_subnet_id: subnet-d9124294
         assign_public_ip: 'yes'
         wait: 'yes'
